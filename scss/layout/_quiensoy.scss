@@ -1,0 +1,35 @@
+
+//  quiensoy //
+
+.quiensoy-p{
+    text-align: center;
+    color:rgb(204, 103, 8) ;
+    padding: 30px;
+    font-size: 20px;
+    padding:2% 7% 5% 7%;
+    font-weight: 500; 
+    }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.quien-galeria-fotos {
+    width: 100%;
+    height: 100%;
+    transition: 4s;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid #031c2d;
+    &:hover{
+    transform: scale(1.1);
+    }
+}
+
+.quiensoy-fotitos {
+    max-width: 300px;
+    justify-content: center;
+    padding-left: 60px;
+    }

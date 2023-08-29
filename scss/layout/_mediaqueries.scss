@@ -1,0 +1,263 @@
+
+//  Mediaqueries  //
+
+
+//navbar//
+
+@media screen and (max-width: 768px){
+    .offcanvas.offcanvas-end{
+    width: 40%;}  
+}
+
+@media screen and (max-width: 768px){
+    .off-canva-navbar ul{
+    flex-direction: column;
+    text-align: justify;
+    justify-content: left;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .logo {
+            width: 60px;
+            height: 60px;
+        }
+        .hero{
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100vh;
+        }
+        .hero.content{
+            width: 90%;
+        }
+
+        .hero p{
+            align-items: center;
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    
+
+// Index //
+@media screen and (max-width: 768px){
+    .hero h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+.hero p {
+    align-items: center;
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width: 768px){
+    .hero a, .botoncito a  {
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .h1-titulo, .hero2info h2 {
+    font-size: 38px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .h1-titulo, .hero2info h2 {
+    font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero2info p {
+    font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        align-items: center;
+    }
+}
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns:1fr;
+        width: 50%;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+.video-container {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 768px){
+    video.index{
+        width: 100px;
+            height: 30%;
+            object-fit: cover;
+
+        }
+        .video-container-div {
+            width: 20%;
+            border-radius: 20%;
+            overflow: hidden;
+            top: 0;
+          }
+    }
+
+
+
+//musica//
+
+
+@media screen and (max-width: 768px){
+        .spotify-iframes{
+        flex-direction: column;
+        text-align: justify;
+        justify-content: left;
+        }
+    }
+
+    
+//quien soy//
+
+@media screen and (max-width: 768px) {
+        .quiensoy-p {
+        font-size: small;
+        }
+    }
+
+@media screen and (max-width: 480px) {
+        .quiensoy-p {
+        font-size: x-small;
+        }
+    }
+
+//quince//
+
+@media screen and (max-width: 768px) {
+    .quince-p {
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .quince-p {
+            font-size: xx-small;
+    }
+}
+
+@media (max-width: 768px) {
+    .quince-videos {
+        display: flex;
+        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10%;
+    
+        .video-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: -10px; 
+        }
+        iframe {
+        margin: 10px; 
+        }
+    }
+}
+@media (max-width: 768px) {
+    .quince-videos .video-row iframe {
+        width: 100%; 
+        height: auto; 
+        border: solid black 2px;
+    }
+}
+
+
+
+//footer//
+
+@media screen and (max-width: 768px) {
+        .seguirviaje {
+        font-size: medium;
+        }
+    }
+
+@media screen and (max-width: 480px) {
+        .seguirviaje {
+        font-size: small;
+        }
+    }
+
+
+@media screen and (max-width: 480px){
+        .button-container{ 
+        display: grid;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+        }
+    }
+
+
+@media screen and (max-width: 768px){
+        .btn.btn-success{ 
+        display: grid;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 25px; 
+        padding: 7px 12px;
+        margin: 3px;
+        text-decoration: none;
+        color: $rojo-principal;
+        font-size: 14px;
+        }
+    }
+
+@media screen and (max-width: 480px){
+        .btn.btn-success{ 
+        display: grid;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 20px; 
+        padding: 5px 10px;
+        margin: 2px;
+        text-decoration: none;
+        color: $rojo-principal;
+        font-size: 10px;
+        }
+    }
+
+
+    //contacto//
+
+    @media screen and (max-width: 480px) {
+        .contact-form {
+            width: 200px;
+            margin: 0 auto;
+        }
+    }
+    

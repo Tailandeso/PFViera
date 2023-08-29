@@ -1,0 +1,45 @@
+
+//  contacto  //
+
+.contact-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+// Nesting //
+
+.form-group {
+    margin-bottom: 20px;
+
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    input,
+    select,
+    textarea{
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgb(233, 145, 14);
+        }
+    textarea {
+    height: 120px;
+    color: black;
+    }
+    input[type="submit"] {
+    color: $rojo-principal;
+    cursor: pointer;
+    &:hover {
+        background-color: white;
+        color: #0000007a; ;
+        }
+    }
+}
+
+
+//  variable en uso  //
+
+.form-text{
+    color:$rojo-principal;
+}

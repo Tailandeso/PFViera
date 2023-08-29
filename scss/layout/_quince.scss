@@ -1,0 +1,35 @@
+
+//  quince //
+
+
+.quince-p{
+    text-align: center;
+    color: $rojo-principal;
+    padding: 30px;
+    font-size: 20px;
+    padding:2% 7%; 
+    text-align: center;
+}
+
+// un poco mas de nesting //
+
+
+.quince-videos {
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 0 7% 0;
+
+    .video-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -10px; 
+    }
+    iframe {
+    margin: 10px; 
+    }
+}

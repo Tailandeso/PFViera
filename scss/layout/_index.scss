@@ -1,0 +1,134 @@
+
+//  index //
+
+
+.hero {
+    max-height: 100%;
+    padding: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: #cf4520;
+}
+
+.hero_content {
+    font-family: satisfy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.hero a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: $rojo-principal;
+    border-radius: 20px;
+    transition: 1s;
+    font-family: howardthin;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+    background-color: #eb6505;
+    &:hover{
+        background-color: #f78867 ;
+        color: #ffffff;
+    }
+}
+
+.hero h2 {
+    font-size: 70px;
+    font-style:oblique;
+    font-family: howardthin;
+    letter-spacing: 7px;
+    transition: 1s;
+    text-align: center;
+    &:hover{
+        letter-spacing: 10px;
+    }
+}
+.hero p{
+    letter-spacing: 2px;
+    }
+
+
+.hero_media {
+    width: 50%;
+    position: relative;
+    transition: 1s;
+    padding: 10px;
+    margin: -20px;
+}
+
+.hero_media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero2{
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2%;
+}
+
+.hero2info {
+    text-align: center;
+}
+
+.hero2info h2 {
+    font-size: 65px;
+    font-family: satisfy;
+    padding-bottom: 0;
+    color: #cf4520; 
+}
+
+.i1{
+    transition: 1s ;
+    &:hover{
+    filter: saturate(120%);
+}
+}
+
+.video-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    margin: 5%;
+  }
+
+  .video-container-div {
+    width: 50%;
+    border-radius: 20%;
+    overflow: hidden;
+    top: 0;
+  }
+
+  .videoindex {
+    @include video;
+  }
+
+  .botoncito a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: $rojo-principal;
+    border-radius: 20px;
+    transition: 1s;
+    font-family: howardthin;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+    background-color: #eb6505;
+    &:hover{
+        background-color: #f78867 ;
+        color: #ffffff;
+    }
+}
+
+
+
+

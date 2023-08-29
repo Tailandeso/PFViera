@@ -1,0 +1,80 @@
+
+// navbar sass //
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.h1-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    padding: 15px;
+    color: $rojo-principal;
+    font-family: satisfy;
+}
+
+.logo {
+    width: 80px; 
+    height: auto; 
+    margin: 40px;
+    }
+
+.off-canva-navbar {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        display: inline-block;
+    }
+
+    li a {
+        display: inline-block;
+        margin: 5px;
+        color:$rojo-principal;
+        font-size: 25px;
+        font-family: howardthin;
+        transition: 1s;
+        border-radius: 45px;
+        padding: 10px;
+        &:hover{
+            color: $rojo-principal;
+            background-color: $rojo-principal;
+            color: white;
+            padding: 10px;
+            
+        } 
+    } 
+    }
+
+.navbar-toggler {
+    background-color: $rojo-principal;
+    &-icon {
+        background-color: $rojo-principal;
+        }
+    }
+
+.offcanvas-title{
+    color: $rojo-principal;
+    }
+
+    .bg-body-tertiary {
+    --bs-bg-opacity: 0;
+
+    }
+
+.navbar-toggler-icon{
+    width: 1em;
+    height: 1em;
+    color: white;
+}
