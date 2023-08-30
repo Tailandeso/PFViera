@@ -87,6 +87,7 @@
 
 .i1{
     transition: 1s ;
+    filter: saturate(30%);
     &:hover{
     filter: saturate(120%);
 }

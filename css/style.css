@@ -209,6 +209,7 @@ main {
 
 .i1 {
   transition: 1s;
+  filter: saturate(30%);
 }
 .i1:hover {
   filter: saturate(120%);
