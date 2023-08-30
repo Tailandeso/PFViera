@@ -17,7 +17,7 @@
         }
     }
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
         .logo {
             width: 60px;
             height: 60px;
@@ -37,14 +37,14 @@
         }
     }
 
-    @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
         .logo {
             width: 50px;
             height: 50px;
         }
     }
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
         .off-canva-navbar li a {
             font-size: 18px;
         }
@@ -52,6 +52,7 @@
     
 
 // Index //
+
 @media screen and (max-width: 768px){
     .hero h2 {
         font-size: 30px;
@@ -76,11 +77,13 @@
         font-size: 15px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .h1-titulo, .hero2info h2 {
     font-size: 38px;
     }
 }
+
 @media screen and (max-width: 480px) {
     .h1-titulo, .hero2info h2 {
     font-size: 30px;
@@ -117,43 +120,32 @@
         align-items: center;
         margin: 20px;
     }
+    .quiensoy-p {
+        font-size: small;
+        }
 }
+
 @media (max-width: 480px) {
     .gallery {
         grid-template-columns:1fr;
         align-items: center;
         margin: 10px;
     }
+    .quiensoy-p {
+        font-size: x-small;
+        }
 }
 
 
-@media screen and (max-width: 768px) {
-        .quiensoy-p {
-        font-size: small;
-        }
-    }
 
-@media screen and (max-width: 480px) {
-        .quiensoy-p {
-        font-size: x-small;
-        }
-    }
 
 //quince//
 
-@media screen and (max-width: 768px) {
+
+@media (max-width: 768px) {
     .quince-p {
         font-size: x-small;
     }
-}
-
-@media screen and (max-width: 480px) {
-    .quince-p {
-            font-size: xx-small;
-    }
-}
-
-@media (max-width: 768px) {
     .quince-videos {
         display: flex;
         text-align: center; 
@@ -162,7 +154,7 @@
         flex-wrap: wrap;
         padding: 10%;
     
-        .video-row {
+    .video-row {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -174,6 +166,12 @@
         }
     }
 }
+@media screen and (max-width: 480px) {
+    .quince-p {
+            font-size: xx-small;
+    }
+}
+
 @media (max-width: 768px) {
     .quince-videos .video-row iframe {
         width: 100%; 
@@ -192,30 +190,8 @@
     .seguirviaje {
     font-size: medium;
     }
-}
-
-@media screen and (max-width: 480px) {
-    .seguirviaje {
-    font-size: small;
-    }
-}
-
-
-
-
-@media screen and (max-width: 480px){
-        .button-container{ 
-        display: grid;
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        height: 50%;
-        }
-    }
-
-
-@media screen and (max-width: 768px){
-        .btn.btn-success{ 
+    
+    .btn.btn-success{ 
         display: grid;
         position: relative;
         align-items: center;
@@ -227,11 +203,21 @@
         text-decoration: none;
         color: $rojo-principal;
         font-size: 14px;
-        }
     }
+}
 
-@media screen and (max-width: 480px){
-        .btn.btn-success{ 
+@media screen and (max-width: 480px) {
+    .seguirviaje {
+    font-size: small;
+    }
+    .button-container{ 
+        display: grid;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+    }
+    .btn.btn-success{ 
         display: grid;
         position: relative;
         align-items: center;
@@ -243,8 +229,9 @@
         text-decoration: none;
         color: $rojo-principal;
         font-size: 10px;
-        }
     }
+}
+
 
 
     //contacto//

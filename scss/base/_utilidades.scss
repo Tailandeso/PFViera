@@ -1,8 +1,17 @@
-//Mixin utilizado//
 
-@mixin video{
-        height: 100%;
-        object-fit: cover;
+//Mixin utilizado en page Musica//
+
+@mixin spotify{
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin-bottom: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 60px 10px
     }
 
 
