@@ -44,6 +44,12 @@
             height: 50px;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        .off-canva-navbar li a {
+            font-size: 18px;
+        }
+    }
     
 
 // Index //
@@ -260,4 +266,6 @@
             margin: 0 auto;
         }
     }
+
+    
     
