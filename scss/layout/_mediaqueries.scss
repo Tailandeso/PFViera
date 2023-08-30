@@ -26,7 +26,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
-            width: 100vh;
         }
         .hero.content{
             width: 90%;
@@ -55,7 +54,12 @@
 // Index //
 @media screen and (max-width: 768px){
     .hero h2 {
-        font-size: 40px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 480px){
+    .hero h2 {
+        font-size: 20px;
     }
 }
 
@@ -89,42 +93,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-        width: 70%;
-        align-items: center;
-    }
-}
-@media (max-width: 480px) {
-    .gallery {
-        grid-template-columns:1fr;
-        width: 50%;
-        align-items: center;
-    }
-}
-
-
-@media screen and (max-width: 768px){
-.video-container {
-    height: 30vh;
-  }
-}
-
-@media screen and (max-width: 768px){
-    video.index{
-        width: 100px;
-            height: 30%;
-            object-fit: cover;
-
-        }
-        .video-container-div {
-            width: 20%;
-            border-radius: 20%;
-            overflow: hidden;
-            top: 0;
-          }
-    }
 
 
 
@@ -139,8 +107,25 @@
         }
     }
 
+
     
 //quien soy//
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns:1fr;
+        align-items: center;
+        margin: 10px;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
         .quiensoy-p {
@@ -201,17 +186,21 @@
 
 //footer//
 
+
+
 @media screen and (max-width: 768px) {
-        .seguirviaje {
-        font-size: medium;
-        }
+    .seguirviaje {
+    font-size: medium;
     }
+}
 
 @media screen and (max-width: 480px) {
-        .seguirviaje {
-        font-size: small;
-        }
+    .seguirviaje {
+    font-size: small;
     }
+}
+
+
 
 
 @media screen and (max-width: 480px){
@@ -266,6 +255,3 @@
             margin: 0 auto;
         }
     }
-
-    
-    
