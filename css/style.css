@@ -329,11 +329,6 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  main {
-    background-image: linear-gradient(to bottom, #ffffff, rgba(239, 194, 105, 0.4588235294));
-  }
-}
-@media screen and (max-width: 768px) {
   .offcanvas.offcanvas-end {
     width: 40%;
   }
