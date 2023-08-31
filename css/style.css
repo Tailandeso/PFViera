@@ -10,10 +10,6 @@ a {
   text-decoration: none;
 }
 
-main {
-  background-image: linear-gradient(to bottom, #ffffff, rgba(243, 224, 150, 0.6705882353));
-}
-
 .header {
   display: flex;
   align-items: center;
