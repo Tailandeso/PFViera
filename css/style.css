@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  background-image: linear-gradient(to bottom, #ffffff, rgba(241, 223, 151, 0.6705882353));
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -324,6 +328,11 @@ a {
   color: #cf4520;
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    background-image: linear-gradient(to bottom, #ffffff, rgba(239, 194, 105, 0.4588235294));
+  }
+}
 @media screen and (max-width: 768px) {
   .offcanvas.offcanvas-end {
     width: 40%;
